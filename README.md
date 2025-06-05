@@ -17,34 +17,62 @@ hardware, offering a pathway to close the gap between elite and grassroots athle
 ## Repository Structure
 Use code with caution.
 
-.
-├── CAD/                      # Computer-Aided Design files for hardware components
+├── CAD/
+
 │   ├── Master Node.f3z
+
 │   ├── Master Node.step
+
 │   ├── Slave Node.f3z
+
 │   └── Slave Node.step
-├── Code/                     # All source code for the project
-│   ├── Classification/       # Scripts and notebooks for action classification models
-│   ├── Firmware/             # Firmware for the Master and Slave ESP32 nodes
-│   ├── GUI/                  # Source code for the Graphical User Interface
-│   └── LLM/                  # Scripts and resources related to the LLM reasoning layer
-├── Data/                     # Datasets used and generated
-│   ├── 2v2 Data/             # Data from 2v2 game scenarios
-│   └── Training Data/        # Labelled IMU data for training classification models
-├── Personal Reflection/      # Personal reflections on the project journey
+
+├── Code/                    
+
+│   ├── Classification/       
+
+│   ├── Firmware/             
+
+│   ├── GUI/                  
+
+│   └── LLM/                  
+
+├── Data/                     
+
+│   ├── 2v2 Data/             
+
+│   └── Training Data/       
+
+├── Personal Reflection/      
+
 │   └── personal_reflection.md
-├── Project Management/       # Project planning and management documents
+
+├── Project Management/       
+
 │   ├── gantt_chart.png
+
 │   └── project_management.md
-├── STLs/                     # STL files for 3D printing hardware components
+
+├── STLs/                     
+
 │   ├── Butt End.stl
+
 │   ├── Master Node Body Bottom.stl
+
 │   ├── Master Node Top.stl
+
 │   ├── Slave Node Body Left.stl
+
 │   └── Slave Node Body Right.stl
-├── Survey Results/           # Anonymized feedback from user testing
+
+├── Survey Results/         
+
 │   ├── RADIAN Coach Feedback Survey(1-2...).xlsx
+
 │   └── RADIAN Player Feedback Survey(1-1...).xlsx
-├── Videos/                   # Supporting videos (e.g., demonstrations, user testing)
-├── .gitignore                # Specifies intentionally untracked files that Git should ignore
-├── README.md                 # This file: an overview of the project and repository
+
+├── Videos/                   
+
+├── .gitignore              
+
+├── README.md                 
